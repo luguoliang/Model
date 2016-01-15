@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UndoManagerSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icB-MT-SjD">
+                                <rect key="frame" x="295" y="289" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkR-dM-3kE">
+                                <rect key="frame" x="233" y="340" width="35" height="30"/>
+                                <state key="normal" title="undo"/>
+                                <connections>
+                                    <action selector="undo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OlP-8G-Qga"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOP-HC-oin">
+                                <rect key="frame" x="334" y="340" width="32" height="30"/>
+                                <state key="normal" title="redo"/>
+                                <connections>
+                                    <action selector="redo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lu3-4M-NIY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7t-2B-fg5">
+                                <rect key="frame" x="220" y="229" width="60" height="30"/>
+                                <state key="normal" title="method1"/>
+                                <connections>
+                                    <action selector="method1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2P3-Yj-Q3V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahQ-vx-zIA">
+                                <rect key="frame" x="319" y="229" width="62" height="30"/>
+                                <state key="normal" title="method2"/>
+                                <connections>
+                                    <action selector="method2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p3D-bq-m3o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ahQ-vx-zIA" firstAttribute="centerY" secondItem="T7t-2B-fg5" secondAttribute="centerY" id="4ZB-aN-qIb"/>
+                            <constraint firstItem="icB-MT-SjD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Zh-Zs-bfp"/>
+                            <constraint firstItem="pkR-dM-3kE" firstAttribute="top" secondItem="icB-MT-SjD" secondAttribute="bottom" constant="30" id="ILh-6E-AYF"/>
+                            <constraint firstItem="ZOP-HC-oin" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="50" id="ZZC-rd-eOe"/>
+                            <constraint firstItem="pkR-dM-3kE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-50" id="bsx-dm-16i"/>
+                            <constraint firstItem="ZOP-HC-oin" firstAttribute="centerY" secondItem="pkR-dM-3kE" secondAttribute="centerY" id="cf7-Qw-6uX"/>
+                            <constraint firstItem="ahQ-vx-zIA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="50" id="hsm-zY-Ckh"/>
+                            <constraint firstItem="icB-MT-SjD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="t4F-Vc-4Hg"/>
+                            <constraint firstItem="T7t-2B-fg5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-50" id="zi6-ip-ES3"/>
+                            <constraint firstItem="icB-MT-SjD" firstAttribute="top" secondItem="T7t-2B-fg5" secondAttribute="bottom" constant="30" id="zwx-Tz-bmi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="icB-MT-SjD" id="zIf-xS-a0n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

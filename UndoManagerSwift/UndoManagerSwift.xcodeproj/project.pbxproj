@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBEB50661C488F5500BDCBDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB50651C488F5500BDCBDC /* AppDelegate.swift */; };
+		BBEB50681C488F5500BDCBDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB50671C488F5500BDCBDC /* ViewController.swift */; };
+		BBEB506B1C488F5500BDCBDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEB50691C488F5500BDCBDC /* Main.storyboard */; };
+		BBEB506D1C488F5500BDCBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEB506C1C488F5500BDCBDC /* Assets.xcassets */; };
+		BBEB50701C488F5500BDCBDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEB506E1C488F5500BDCBDC /* LaunchScreen.storyboard */; };
+		BBEB507B1C488F5500BDCBDC /* UndoManagerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB507A1C488F5500BDCBDC /* UndoManagerSwiftTests.swift */; };
+		BBEB50861C488F5500BDCBDC /* UndoManagerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB50851C488F5500BDCBDC /* UndoManagerSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBEB50771C488F5500BDCBDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEB505A1C488F5500BDCBDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEB50611C488F5500BDCBDC;
+			remoteInfo = UndoManagerSwift;
+		};
+		BBEB50821C488F5500BDCBDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEB505A1C488F5500BDCBDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEB50611C488F5500BDCBDC;
+			remoteInfo = UndoManagerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBEB50621C488F5500BDCBDC /* UndoManagerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UndoManagerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB50651C488F5500BDCBDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBEB50671C488F5500BDCBDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBEB506A1C488F5500BDCBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBEB506C1C488F5500BDCBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBEB506F1C488F5500BDCBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBEB50711C488F5500BDCBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB50761C488F5500BDCBDC /* UndoManagerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UndoManagerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB507A1C488F5500BDCBDC /* UndoManagerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoManagerSwiftTests.swift; sourceTree = "<group>"; };
+		BBEB507C1C488F5500BDCBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB50811C488F5500BDCBDC /* UndoManagerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UndoManagerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB50851C488F5500BDCBDC /* UndoManagerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoManagerSwiftUITests.swift; sourceTree = "<group>"; };
+		BBEB50871C488F5500BDCBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBEB505F1C488F5500BDCBDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB50731C488F5500BDCBDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB507E1C488F5500BDCBDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBEB50591C488F5500BDCBDC = {
+			isa = PBXGroup;
+			children = (
+				BBEB50641C488F5500BDCBDC /* UndoManagerSwift */,
+				BBEB50791C488F5500BDCBDC /* UndoManagerSwiftTests */,
+				BBEB50841C488F5500BDCBDC /* UndoManagerSwiftUITests */,
+				BBEB50631C488F5500BDCBDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBEB50631C488F5500BDCBDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB50621C488F5500BDCBDC /* UndoManagerSwift.app */,
+				BBEB50761C488F5500BDCBDC /* UndoManagerSwiftTests.xctest */,
+				BBEB50811C488F5500BDCBDC /* UndoManagerSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBEB50641C488F5500BDCBDC /* UndoManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB50651C488F5500BDCBDC /* AppDelegate.swift */,
+				BBEB50671C488F5500BDCBDC /* ViewController.swift */,
+				BBEB50691C488F5500BDCBDC /* Main.storyboard */,
+				BBEB506C1C488F5500BDCBDC /* Assets.xcassets */,
+				BBEB506E1C488F5500BDCBDC /* LaunchScreen.storyboard */,
+				BBEB50711C488F5500BDCBDC /* Info.plist */,
+			);
+			path = UndoManagerSwift;
+			sourceTree = "<group>";
+		};
+		BBEB50791C488F5500BDCBDC /* UndoManagerSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB507A1C488F5500BDCBDC /* UndoManagerSwiftTests.swift */,
+				BBEB507C1C488F5500BDCBDC /* Info.plist */,
+			);
+			path = UndoManagerSwiftTests;
+			sourceTree = "<group>";
+		};
+		BBEB50841C488F5500BDCBDC /* UndoManagerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB50851C488F5500BDCBDC /* UndoManagerSwiftUITests.swift */,
+				BBEB50871C488F5500BDCBDC /* Info.plist */,
+			);
+			path = UndoManagerSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBEB50611C488F5500BDCBDC /* UndoManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB508A1C488F5500BDCBDC /* Build configuration list for PBXNativeTarget "UndoManagerSwift" */;
+			buildPhases = (
+				BBEB505E1C488F5500BDCBDC /* Sources */,
+				BBEB505F1C488F5500BDCBDC /* Frameworks */,
+				BBEB50601C488F5500BDCBDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UndoManagerSwift;
+			productName = UndoManagerSwift;
+			productReference = BBEB50621C488F5500BDCBDC /* UndoManagerSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBEB50751C488F5500BDCBDC /* UndoManagerSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB508D1C488F5500BDCBDC /* Build configuration list for PBXNativeTarget "UndoManagerSwiftTests" */;
+			buildPhases = (
+				BBEB50721C488F5500BDCBDC /* Sources */,
+				BBEB50731C488F5500BDCBDC /* Frameworks */,
+				BBEB50741C488F5500BDCBDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEB50781C488F5500BDCBDC /* PBXTargetDependency */,
+			);
+			name = UndoManagerSwiftTests;
+			productName = UndoManagerSwiftTests;
+			productReference = BBEB50761C488F5500BDCBDC /* UndoManagerSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBEB50801C488F5500BDCBDC /* UndoManagerSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB50901C488F5500BDCBDC /* Build configuration list for PBXNativeTarget "UndoManagerSwiftUITests" */;
+			buildPhases = (
+				BBEB507D1C488F5500BDCBDC /* Sources */,
+				BBEB507E1C488F5500BDCBDC /* Frameworks */,
+				BBEB507F1C488F5500BDCBDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEB50831C488F5500BDCBDC /* PBXTargetDependency */,
+			);
+			name = UndoManagerSwiftUITests;
+			productName = UndoManagerSwiftUITests;
+			productReference = BBEB50811C488F5500BDCBDC /* UndoManagerSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBEB505A1C488F5500BDCBDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = baofoo;
+				TargetAttributes = {
+					BBEB50611C488F5500BDCBDC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					BBEB50751C488F5500BDCBDC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BBEB50611C488F5500BDCBDC;
+					};
+					BBEB50801C488F5500BDCBDC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BBEB50611C488F5500BDCBDC;
+					};
+				};
+			};
+			buildConfigurationList = BBEB505D1C488F5500BDCBDC /* Build configuration list for PBXProject "UndoManagerSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBEB50591C488F5500BDCBDC;
+			productRefGroup = BBEB50631C488F5500BDCBDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBEB50611C488F5500BDCBDC /* UndoManagerSwift */,
+				BBEB50751C488F5500BDCBDC /* UndoManagerSwiftTests */,
+				BBEB50801C488F5500BDCBDC /* UndoManagerSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBEB50601C488F5500BDCBDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB50701C488F5500BDCBDC /* LaunchScreen.storyboard in Resources */,
+				BBEB506D1C488F5500BDCBDC /* Assets.xcassets in Resources */,
+				BBEB506B1C488F5500BDCBDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB50741C488F5500BDCBDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB507F1C488F5500BDCBDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBEB505E1C488F5500BDCBDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB50681C488F5500BDCBDC /* ViewController.swift in Sources */,
+				BBEB50661C488F5500BDCBDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB50721C488F5500BDCBDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB507B1C488F5500BDCBDC /* UndoManagerSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB507D1C488F5500BDCBDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB50861C488F5500BDCBDC /* UndoManagerSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBEB50781C488F5500BDCBDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEB50611C488F5500BDCBDC /* UndoManagerSwift */;
+			targetProxy = BBEB50771C488F5500BDCBDC /* PBXContainerItemProxy */;
+		};
+		BBEB50831C488F5500BDCBDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEB50611C488F5500BDCBDC /* UndoManagerSwift */;
+			targetProxy = BBEB50821C488F5500BDCBDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBEB50691C488F5500BDCBDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEB506A1C488F5500BDCBDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBEB506E1C488F5500BDCBDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEB506F1C488F5500BDCBDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBEB50881C488F5500BDCBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBEB50891C488F5500BDCBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBEB508B1C488F5500BDCBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UndoManagerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.UndoManagerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBEB508C1C488F5500BDCBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UndoManagerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.UndoManagerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBEB508E1C488F5500BDCBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UndoManagerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.UndoManagerSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UndoManagerSwift.app/UndoManagerSwift";
+			};
+			name = Debug;
+		};
+		BBEB508F1C488F5500BDCBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UndoManagerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.UndoManagerSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UndoManagerSwift.app/UndoManagerSwift";
+			};
+			name = Release;
+		};
+		BBEB50911C488F5500BDCBDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UndoManagerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.UndoManagerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UndoManagerSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BBEB50921C488F5500BDCBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UndoManagerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.UndoManagerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UndoManagerSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBEB505D1C488F5500BDCBDC /* Build configuration list for PBXProject "UndoManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB50881C488F5500BDCBDC /* Debug */,
+				BBEB50891C488F5500BDCBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEB508A1C488F5500BDCBDC /* Build configuration list for PBXNativeTarget "UndoManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB508B1C488F5500BDCBDC /* Debug */,
+				BBEB508C1C488F5500BDCBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBEB508D1C488F5500BDCBDC /* Build configuration list for PBXNativeTarget "UndoManagerSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB508E1C488F5500BDCBDC /* Debug */,
+				BBEB508F1C488F5500BDCBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBEB50901C488F5500BDCBDC /* Build configuration list for PBXNativeTarget "UndoManagerSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB50911C488F5500BDCBDC /* Debug */,
+				BBEB50921C488F5500BDCBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBEB505A1C488F5500BDCBDC /* Project object */;
+}
