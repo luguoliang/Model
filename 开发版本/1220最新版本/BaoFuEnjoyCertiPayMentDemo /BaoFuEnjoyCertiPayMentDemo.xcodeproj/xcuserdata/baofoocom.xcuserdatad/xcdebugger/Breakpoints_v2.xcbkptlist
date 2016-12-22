@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BaoFuEnjoyCertiPayMentDemo/BaoFooJSWebViewModlus/BaoFooJSWebViewManager.m"
+            timestampString = "502803853.447734"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
+            landmarkName = "-leftBtnAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BaoFuEnjoyCertiPayMentDemo/BaoNewFuenjoryController.m"
+            timestampString = "503376717.076334"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-remoteRequestWith:reqId:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BaoFuEnjoyCertiPayMentDemo/BaofooHttpsRequest.m"
+            timestampString = "503995214.665502"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "+posttoUrlStr:WithPostOrgetData:Sucessful:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BaoFuEnjoyCertiPayMentDemo/BaoFuenjoryCerPayment.m"
+            timestampString = "504104659.404632"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "-loadingFinish:reqId:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BaoFuenjoryCerPayment loadingFinish:reqId:]"
+                  moduleName = "BaoFuEnjoyCertiPayMentDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baofoocom/Desktop/%E5%AE%9D%E4%BB%98sdk/%E6%96%B0%E7%89%88%E8%AE%A4%E8%AF%81%E5%B0%8A%E4%BA%AB/%E5%BC%80%E5%8F%91%E7%89%88%E6%9C%AC/1220%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC/BaoFuEnjoyCertiPayMentDemo%20/BaoFuEnjoyCertiPayMentDemo/BaoFuenjoryCerPayment.m"
+                  timestampString = "504104772.250436"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__45-[BaoFuenjoryCerPayment loadingFinish:reqId:]_block_invoke"
+                  moduleName = "BaoFuEnjoyCertiPayMentDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baofoocom/Desktop/%E5%AE%9D%E4%BB%98sdk/%E6%96%B0%E7%89%88%E8%AE%A4%E8%AF%81%E5%B0%8A%E4%BA%AB/%E5%BC%80%E5%8F%91%E7%89%88%E6%9C%AC/1220%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC/BaoFuEnjoyCertiPayMentDemo%20/BaoFuEnjoyCertiPayMentDemo/BaoFuenjoryCerPayment.m"
+                  timestampString = "504104772.264255"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "217"
+                  endingLineNumber = "217"
+                  offsetFromSymbolStart = "6">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BaoFuEnjoyCertiPayMentDemo/BaoFuenjoryCerPayment.m"
+            timestampString = "504104740.589244"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "-bfPreloadingcallBack"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BaoFuenjoryCerPayment bfPreloadingcallBackaaa]"
+                  moduleName = "BaoFuEnjoyCertiPayMentDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baofoocom/Desktop/%E5%AE%9D%E4%BB%98sdk/%E6%96%B0%E7%89%88%E8%AE%A4%E8%AF%81%E5%B0%8A%E4%BA%AB/%E5%BC%80%E5%8F%91%E7%89%88%E6%9C%AC/1220%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC/BaoFuEnjoyCertiPayMentDemo%20/BaoFuEnjoyCertiPayMentDemo/BaoFuenjoryCerPayment.m"
+                  timestampString = "504104772.271964"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "238"
+                  endingLineNumber = "238"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__48-[BaoFuenjoryCerPayment bfPreloadingcallBackaaa]_block_invoke"
+                  moduleName = "BaoFuEnjoyCertiPayMentDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baofoocom/Desktop/%E5%AE%9D%E4%BB%98sdk/%E6%96%B0%E7%89%88%E8%AE%A4%E8%AF%81%E5%B0%8A%E4%BA%AB/%E5%BC%80%E5%8F%91%E7%89%88%E6%9C%AC/1220%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC/BaoFuEnjoyCertiPayMentDemo%20/BaoFuEnjoyCertiPayMentDemo/BaoFuenjoryCerPayment.m"
+                  timestampString = "504104772.282792"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "240"
+                  endingLineNumber = "240"
+                  offsetFromSymbolStart = "6">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
